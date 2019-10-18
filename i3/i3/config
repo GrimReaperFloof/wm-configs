@@ -24,6 +24,9 @@ exec kdeconnect-indicator
 # polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
+# Start MPD
+exec mpd
+
 # Start Steam
 #exec steam -silent
 
